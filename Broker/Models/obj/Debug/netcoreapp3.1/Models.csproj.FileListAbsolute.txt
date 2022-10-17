@@ -1,0 +1,10 @@
+D:\test\Saritasa\Broker\Models\bin\Debug\netcoreapp3.1\Models.deps.json
+D:\test\Saritasa\Broker\Models\bin\Debug\netcoreapp3.1\Models.dll
+D:\test\Saritasa\Broker\Models\bin\Debug\netcoreapp3.1\Models.pdb
+D:\test\Saritasa\Broker\Models\obj\Debug\netcoreapp3.1\Models.csproj.AssemblyReference.cache
+D:\test\Saritasa\Broker\Models\obj\Debug\netcoreapp3.1\Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\test\Saritasa\Broker\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+D:\test\Saritasa\Broker\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
+D:\test\Saritasa\Broker\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
+D:\test\Saritasa\Broker\Models\obj\Debug\netcoreapp3.1\Models.dll
+D:\test\Saritasa\Broker\Models\obj\Debug\netcoreapp3.1\Models.pdb
