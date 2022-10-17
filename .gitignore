@@ -3,3 +3,22 @@
 ################################################################################
 
 /Broker/Broker/obj
+/Broker/Common/obj
+/Broker/Contracts/obj
+/Broker/DataAccess/obj
+/Broker/Engine/obj
+/Broker/Models/obj
+/Broker/Test/obj
+/Broker/.vs/Broker/v16
+/Broker/Broker/bin/Debug/netcoreapp3.1
+/Broker/Common/bin/Debug/netcoreapp3.1
+/Broker/Contracts/bin/Debug/netcoreapp3.1
+/Broker/DataAccess/bin/Debug/netcoreapp3.1
+/Broker/Engine/bin/Debug/netcoreapp3.1
+/Broker/Models/bin/Debug/netcoreapp3.1
+/Broker/Test/bin/Debug/netcoreapp3.1/cs
+/Broker/Test/bin/Debug/netcoreapp3.1/de
+/Broker/Test/bin/Debug/netcoreapp3.1/es
+/Broker/Test/bin/Debug/netcoreapp3.1/fr
+/Broker/Test/bin/Debug/netcoreapp3.1
+/Broker/.vs/Broker/config/applicationhost.config
