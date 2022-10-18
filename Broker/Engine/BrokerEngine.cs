@@ -113,11 +113,16 @@ namespace Engine
 
             foreach (string coin in Enum.GetNames(typeof(Coins)))
             {
-                temprevenue = (((decimal)(GetPropValue(rateTo, coin)) * moneyUsd / ((decimal)(GetPropValue(rateFrom, coin)))) - (rateFrom.Id - rateTo.Id).Days) - moneyUsd;
-                if(revenue == 0 || revenue < temprevenue)
+                decimal rateToTemp = (decimal)(GetPropValue(rateTo, coin));
+                decimal rateFromTemp = (decimal)(GetPropValue(rateFrom, coin));
+                if (rateToTemp != 0 && rateFromTemp != 0)
                 {
-                    tempcoins = (Coins)Enum.Parse(typeof(Coins), coin);
-                    revenue = temprevenue;
+                    temprevenue = ((rateToTemp * moneyUsd / rateFromTemp) - (rateFrom.Id - rateTo.Id).Days) - moneyUsd;
+                    if (revenue == 0 || revenue < temprevenue)
+                    {
+                        tempcoins = (Coins)Enum.Parse(typeof(Coins), coin);
+                        revenue = temprevenue;
+                    }
                 }
             }
             return tempcoins;
